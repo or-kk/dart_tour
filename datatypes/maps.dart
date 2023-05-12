@@ -1,10 +1,12 @@
 void main() {
-  // Map <key, object> 
+  // Map <key, object>
   var player = {
     'name': 'ralph',
     'score': '99',
     'weapon': false,
   };
+
+  print(player);
 
   Map<int, bool> example = {
     1: true,
@@ -20,9 +22,9 @@ void main() {
 
   List<Map<String, Object>> players = [
     {
-    'name': ' moo',
-    'score': '77',
-    'weapon': false,
+      'name': ' moo',
+      'score': '77',
+      'weapon': false,
     },
     player,
   ];
