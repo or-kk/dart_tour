@@ -14,7 +14,13 @@ class Player {
     required String name,
     required int age,
     required int xp,
-  }) : this.age = age, this.name = name, this.xp = xp, this.team = 'blue',;
+  }) : this.age = age, this.name = name, this.xp = xp, this.team = 'blue';
+  
+  Player.createRedPlayer({
+    required String name,
+    required int age,
+    required int xp,
+  }) : this.age = age, this.name = name, this.xp = xp, this.team = 'blue';
 
 }
 
@@ -29,6 +35,5 @@ void main() {
     name: 'ralph',
     age: 32,
     xp: 33,
-    team: 'red',
   );
 }
