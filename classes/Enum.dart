@@ -1,4 +1,4 @@
-enum Team { red, blue}
+enum Team { red, blue }
 
 class Player {
   String name;
@@ -12,15 +12,20 @@ class Player {
     required this.team,
   });
 
-   void sayHello() {
+  void sayHello() {
     print("Hello my name is $name");
   }
 }
 
 void main() {
-    var ralph = Player(name: 'ralph', age: 32, xp: 1200, team: Team.red)
-  ..name = 'las'
-  ..xp = 3000
-  ..age = 26
-  ..sayHello();
+  var ralph = Player(
+    name: 'ralph',
+    age: 32,
+    xp: 1200,
+    team: Team.red,
+  )
+    ..name = 'las'
+    ..xp = 3000
+    ..age = 26
+    ..sayHello();
 }

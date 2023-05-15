@@ -5,7 +5,7 @@ class Person {
   String hobby;
 
   Person({
-    required this.name,
+    required this.name, // name constructor parameters
     required this.age,
     required this.country,
     required this.hobby,
